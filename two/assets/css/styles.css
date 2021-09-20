@@ -48,6 +48,20 @@ h5 {
     margin-bottom: 50px;
 }
 
+#mainNav .navbar-nav {
+    letter-spacing: 0.0625rem;
+}
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    /* color: #0e5eab; */
+    color: #f39d9b;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #fff;
+}
 
 .fragment {
     padding: 100px 0;
@@ -155,6 +169,15 @@ h5 {
     background: rgba(255,255,255,1)
 } 
 
+/* #resume {
+    background-color: #fff; 
+} */
+
+a:focus,
+a:hover,
+a:active {
+    color: rgb(170, 165, 165);
+}
 
 .fragment-five {
     background-color: #fee4c6;
@@ -205,3 +228,6 @@ h5 {
     color: #f39d9b !important;
 } 
 
+html {
+    scroll-behavior: smooth !important;
+}
