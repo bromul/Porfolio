@@ -235,7 +235,9 @@ a:active {
 }
 
 .text-primary {
-    color: #30336b !important;
+    /* color: #30336b !important; */
+    /* color: #dd6e06 !important; */
+    color: #fff !important;
 }
 
 .text-secondary {
