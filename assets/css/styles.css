@@ -209,7 +209,7 @@ header.masthead h2 {
 a:focus,
 a:hover,
 a:active {
-    color: #fff;
+    color: rgb(170, 165, 165);
 }
 
 .close-link {
