@@ -231,3 +231,17 @@ a:active {
 html {
     scroll-behavior: smooth !important;
 }
+
+#header-scroll a:link, 
+#header-scroll a:visited,
+#header-scroll a:hover,
+#header-scroll a:focus {
+    color: #f39d9b !important; 
+}
+
+
+/* #about-scroll a:visited,
+#about-scroll a:hover,
+#about-scroll a:active {
+    color: #0e5eab; 
+} */
